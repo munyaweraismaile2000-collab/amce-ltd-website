@@ -46,7 +46,6 @@
     *{animation:none !important; transition:none !important;}
   }
 
-  /* ---------- HEADER ---------- */
   header{
     position:fixed; top:0; left:0; right:0; z-index:100;
     background:rgba(250,250,247,0.86);
@@ -113,7 +112,6 @@
     .brand-text .sub{display:none;}
   }
 
-  /* ---------- HERO ---------- */
   .hero{
     position:relative; min-height:92svh; display:flex; align-items:flex-end;
     overflow:hidden; background:var(--ink);
@@ -170,7 +168,6 @@
     .btn{padding:12px 18px; font-size:13px;}
   }
 
-  /* ---------- STAT STRIP ---------- */
   .stat-strip{
     background:var(--card); border-bottom:1px solid var(--line);
     display:flex; flex-wrap:wrap;
@@ -191,7 +188,6 @@
     .stat-item{flex:1 1 50%; border-bottom:1px solid var(--line);}
   }
 
-  /* ---------- RULER DIVIDER (signature) ---------- */
   .ruler{
     position:relative; height:48px; background:var(--paper);
     display:flex; align-items:center; justify-content:space-between;
@@ -215,7 +211,6 @@
   .ruler-label:last-child{padding:0 0 0 12px;}
   @media (max-width:640px){ .ruler-label:last-child{display:none;} }
 
-  /* ---------- SECTION BASICS ---------- */
   section{padding:104px 0;}
   .section-head{max-width:640px; margin-bottom:56px;}
   .kicker{
@@ -226,7 +221,6 @@
   h2.section-title{font-size:clamp(28px,4vw,44px); color:var(--ink);}
   .section-desc{margin-top:18px; color:var(--ink-soft); font-size:16px; line-height:1.6; font-weight:400;}
 
-  /* ---------- SERVICES ---------- */
   .services-grid{display:grid; grid-template-columns:repeat(3, 1fr); gap:1px; background:var(--line); border:1px solid var(--line); border-radius:8px; overflow:hidden;}
   .service-cat{background:var(--card); padding:36px 30px; transition:background .2s ease;}
   .service-cat:hover{background:var(--blueprint-tint);}
@@ -250,7 +244,6 @@
   }
   @media (max-width:900px){ .services-grid{grid-template-columns:1fr;} }
 
-  /* ---------- BUILD STAGES ---------- */
   .stages{background:var(--paper-warm); border-top:1px solid var(--line); border-bottom:1px solid var(--line);}
   .stage-row{
     display:grid; grid-template-columns:150px 1fr 1.3fr; gap:0;
@@ -282,7 +275,6 @@
     .stage-img{min-height:220px; order:-1; margin:24px 24px 0;}
   }
 
-  /* ---------- WHY CHOOSE ---------- */
   .why-grid{display:grid; grid-template-columns:repeat(4,1fr); gap:28px;}
   .why-card{padding:0; border-top:2px solid var(--blueprint); transition:transform .2s ease;}
   .why-card:hover{transform:translateY(-4px);}
@@ -297,7 +289,6 @@
   @media (max-width:900px){ .why-grid{grid-template-columns:1fr 1fr;} }
   @media (max-width:560px){ .why-grid{grid-template-columns:1fr;} }
 
-  /* ---------- CAROUSEL ---------- */
   .carousel-wrap{position:relative; max-width:1180px; margin:0 auto; padding:0 28px;}
   .carousel{position:relative; overflow:hidden; border-radius:8px; box-shadow:var(--shadow);}
   .carousel-track{display:flex; transition:transform .55s cubic-bezier(.65,0,.35,1);}
@@ -332,7 +323,6 @@
     .carousel-cap .cap-title{font-size:15px;}
   }
 
-  /* ---------- CONTACT ---------- */
   .contact{
     background:var(--blueprint); color:var(--paper);
     position:relative; overflow:hidden;
@@ -360,7 +350,6 @@
   .contact-item a.value:hover{color:var(--amber);}
   @media (max-width:900px){ .contact-inner{grid-template-columns:1fr;} }
 
-  /* ---------- FOOTER ---------- */
   footer{background:var(--ink); color:var(--paper); position:relative;}
   .footer-top{
     display:grid; grid-template-columns:1.2fr 0.8fr 1fr; gap:48px;

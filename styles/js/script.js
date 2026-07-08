@@ -17,7 +17,6 @@
     });
   })();
 
-  // Image carousel
   (function(){
     const track = document.getElementById('carouselTrack');
     const dotsWrap = document.getElementById('carouselDots');
